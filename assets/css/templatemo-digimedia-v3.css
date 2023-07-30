@@ -50,6 +50,14 @@ figure, header, nav, section, article, aside, footer, figcaption {
   clear: both;
 }
 
+/* dark mode testing
+
+#testicon{
+  width: 40px;
+  cursor: pointer;
+
+} */
+
 /* ---- .grid-item ---- */
 
 .grid-sizer,
@@ -104,7 +112,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #ffffff;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -142,7 +150,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -916,7 +924,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  /*background-image: url(../images/slider-right-dec.jpg);*/
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1234,7 +1242,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.jpg);
+  /*background-image: url(../images/services-left-dec.jpg);*/
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1246,7 +1254,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../images/services-right-dec.jpg);
+ /* background-image: url(../images/services-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1490,7 +1498,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+  /*background-image: url(../images/portfolio-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1611,7 +1619,7 @@ Blog
 
 .blog:before {
   content: '';
-  background-image: url(../images/blog-left-dec.jpg);
+ /* background-image: url(../images/blog-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
